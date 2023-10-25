@@ -20,5 +20,3 @@ def show_hidden_word(word, empty_word, attempts):
                 if i == word[j].lower():
                     empty_word[j] = i
     return empty_word
-            
-

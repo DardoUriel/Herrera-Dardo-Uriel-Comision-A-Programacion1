@@ -1,5 +1,5 @@
 import random
-from functions import show_hidden_word
+from ..functions import show_hidden_word
 word_collections = [
     "programacion",
     "tecnologia",
