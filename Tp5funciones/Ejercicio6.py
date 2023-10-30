@@ -10,6 +10,3 @@ from functions import letter_spacing
 
 sentence ="Hola, tú"
 print(letter_spacing(sentence))
-palabra = "H o l a , t ú "
-print(len(palabra))
-print("H o l a , t ú ")
