@@ -1,4 +1,6 @@
 """13.	Escribir una función que calcule el módulo de un vector."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import modulus_of_a_vector
 vectors = []
 for i in range(1,4):

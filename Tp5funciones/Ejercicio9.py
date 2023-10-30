@@ -4,6 +4,8 @@ no se ha podido hacer login incremente este valor.
 Crear un programa principal donde se pida un nombre de usuario y una contraseña y se intente hacer login, 
 solamente tenemos tres oportunidades para intentarlo.
 """
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import login
 tries = 0
 while True:

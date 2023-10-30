@@ -1,5 +1,7 @@
 import random
-from ..functions import show_hidden_word
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
+from functions import show_hidden_word
 word_collections = [
     "programacion",
     "tecnologia",

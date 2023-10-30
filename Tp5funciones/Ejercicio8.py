@@ -1,5 +1,7 @@
 """8.	Diseñar una función que calcule el área y el perímetro de una circunferencia. 
 Utiliza dicha función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import area_and_perimeter
 while True:
     radio = float(input("Escriba el radio de la circunferencia: "))

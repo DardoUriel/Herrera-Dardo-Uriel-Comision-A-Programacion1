@@ -1,6 +1,8 @@
 """10.	Escribir una función que aplique un descuento a un precio. 
 Esta función tiene que recibir un diccionario con los precios y porcentajes del carrito de compra, 
 aplicar los descuentos a los productos del carrito  y devolver el precio final de la compra."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import discount_applier
 prices_and_discounts = { #los precios y los descuentos respectivamente, menor el precio mayor el descuento
     10000:10,

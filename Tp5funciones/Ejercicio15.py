@@ -1,5 +1,7 @@
 """15.	Escribir un programa que pida números al usuario, motrar el factorial de cada uno y, al finalizar, 
 la cantidad total de números leídos en total. Utilizar una o más funciones, según sea necesario."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import factorials
 nums = []
 cuantity = 0

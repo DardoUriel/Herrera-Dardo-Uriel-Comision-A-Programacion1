@@ -1,5 +1,7 @@
 """16.	Solicitar al usuario un número entero y luego un dígito. 
 Informar la cantidad de ocurrencias del dígito en el número, utilizando para ello una función que calcule la frecuencia."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import count_digit_occurrences
 # Solicita al usuario un número entero.
 number = input("Ingrese un número entero: ")

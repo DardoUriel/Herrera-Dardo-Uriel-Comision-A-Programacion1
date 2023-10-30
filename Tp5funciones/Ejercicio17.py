@@ -2,6 +2,8 @@
 La lectura finalizará cuando ingrese un número que no sea primo. Por cada número, mostrar la suma de sus dígitos. 
 También solicitar al usuario un dígito e informar la cantidad de veces que aparece en el número (frecuencia). 
 Al finalizar el programa, mostrar el factorial del mayor número ingresado."""
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import *
 import math
 nums = []

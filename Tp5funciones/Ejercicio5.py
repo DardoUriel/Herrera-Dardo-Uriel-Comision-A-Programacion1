@@ -2,6 +2,8 @@
 Crear un programa principal, que utilizando la función anterior,
 vaya pidiendo la temperatura máxima y mínima de cada día y vaya mostrando la media. 
 El programa pedirá el número de días que se van a introducir.'''
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import half
 amout = int(input("ingrese la cantidad de dias que quiere: "))
 for i  in range(amout):

@@ -2,6 +2,8 @@
 Para que un número de DNI sea válido debe tener entre 7 y 8 dígitos.
 '''
 
-from ..functions import number_dni_validate
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
+from functions import number_dni_validate
 number = input("ingresar dni sin espacios: ")
 print(number_dni_validate(number))#imprime true si la longitud de l dni esta entre 7 y 8, sino imprime false

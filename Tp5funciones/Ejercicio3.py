@@ -10,7 +10,9 @@ Nombre: María Ines Rosales
 DNI: 25469648
 ID -> Maria7254
 '''
-from ..functions import *
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
+from functions import *
 while True: #valida el formato del nombre
     name  = input("nombre/s y apellido: ")
     if validate_format_full_name(name) == True:

@@ -4,6 +4,8 @@ adicional tras cada letra. Por ejemplo, “Hola, tú” devolverá “H o l a , 
 Crea un programa principal donde se use dicha función.
 '''
 
+import sys
+sys.path.append("C:/Users/FlowUser/Desktop/UTN/ProgrmacionRepositorio/Herrera-Dardo-Uriel-Comision-A-Programacion1/Funciones")
 from functions import letter_spacing 
 
 sentence ="Hola, tú"
